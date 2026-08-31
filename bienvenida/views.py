@@ -10,4 +10,4 @@ def inicio(request):
 
 def lista_productos(request):
     productos = Producto.objects.all()
-    return render(request,'productos/lista.html',{'productos':productos})
+    return render(request,'productos/lista.html', {'productos':productos})
